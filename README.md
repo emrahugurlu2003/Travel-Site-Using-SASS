@@ -7,49 +7,46 @@
   </p>
 </p>
 
-
-
 ## Table Of Contents
 
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Authors](#authors)
-
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Author](#author)
 
 ## About The Project
 
-### Project Skeleton 
+### Project Skeleton
 
 ```
 Travel Site Project
 |
-|----readme.md                
-|----assets            
+|----readme.md
+|----assets
 |----solution
-        |----index.html  
-        |----css (folder)   
-              |----style.css  
-              |----style.css.map  
-        |----scss (folder)   
-              |----abstracts (folder) 
-                    |----_mixin.scss 
-                    |----_variables.scss 
-              |----base (folder) 
-                    |----_reset.scss               
-              |----components (folder) 
-                    |----_footer.scss 
-                    |----_navbar.scss 
-                    |----_responsive.scss 
-              |----sections (folder) 
-                    |----_about.scss 
-                    |----_destination.scss 
-                    |----_home.scss 
-                    |----_guide.scss 
-              |----main.scss  
+        |----index.html
+        |----css (folder)
+              |----style.css
+              |----style.css.map
+        |----scss (folder)
+              |----abstracts (folder)
+                    |----_mixin.scss
+                    |----_variables.scss
+              |----base (folder)
+                    |----_reset.scss
+              |----components (folder)
+                    |----_footer.scss
+                    |----_navbar.scss
+                    |----_responsive.scss
+              |----sections (folder)
+                    |----_about.scss
+                    |----_destination.scss
+                    |----_home.scss
+                    |----_guide.scss
+              |----main.scss
 ```
 
 ![Screen Shot](Sass.gif)
@@ -57,6 +54,7 @@ Travel Site Project
 This project is developed using Scss (Sassy Cascading Style Sheets), a CSS project. Scss is a style sheet language that adds additional features and enhanced syntax to CSS, providing more functionality and improved ease of writing.
 
 ### Features
+
 This project incorporates the following Scss features:
 
 - **Mixin**: @mixin rule allows for the reuse of style blocks defined with it.
@@ -76,31 +74,32 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-* Nodejs and Sass
+- Nodejs and Sass
 
 ### Installation
 
 1. Clone the repo
 
- ```sh
-  git clone https://github.com/your_username_/Project-Name.git
- ```
+```sh
+ git clone https://github.com/your_username_/Project-Name.git
+```
+
 2. Install NodeJs and Sass
-<a href="https://nodejs.org/en">Download Nodejs</a>
-and
+   <a href="https://nodejs.org/en">Download Nodejs</a>
+   and
+
 ```sh
 npm install -g sass
 ```
 
-
 ## Usage
 
 Open the terminal in the project directory and enter the following Sass command in your terminal:
- ```sh
-    sass --watch ./scss/main.scss:./css/style.css
- ```
 
-## Authors
+```sh
+   sass --watch ./scss/main.scss:./css/style.css
+```
 
-* **Anthony Harold** - *Fullstack Developer* - [Anthony Harold](https://github.com/anthonyharold67/)
+## Author
 
+- **Emrah UĞURLU** - _FrontEnd Developer_ - [Emrah UĞURLU](https://github.com/emrahugurlu2003/)
