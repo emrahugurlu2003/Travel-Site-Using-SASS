@@ -1,1 +1,8 @@
 // main
+// order of importing is important!
+@import "./base/reset";
+@import "./abstracts/_variables.scss", "./abstracts/mixin"; //variables and styling functions
+
+@import "./components/footer", "./components/navbar", "./components/responsive";
+@import "./sections/home", "./sections/about", "./sections/destination",
+  "./sections/guide";
