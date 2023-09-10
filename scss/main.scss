@@ -6,3 +6,18 @@
 @import "./components/footer", "./components/navbar", "./components/responsive";
 @import "./sections/home", "./sections/about", "./sections/destination",
   "./sections/guide";
+
+//instead of linking  these below in the <head> section,they are placed here
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish&family=Playfair+Display&family=Rampart+One&display=swap");
+
+//styling can be done in main.scss as well
+body {
+  background-color: $mainColor;
+  position: relative;
+}
+
+button,
+i {
+  cursor: pointer;
+}
