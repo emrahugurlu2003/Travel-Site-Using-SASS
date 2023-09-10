@@ -1,12 +1,10 @@
 // home
 .home {
-  margin: 1rem auto;
+  margin: 0rem auto;
   width: 90%;
   min-height: 40vh;
-  gap: 2rem;
-  @include flexMix(
-    flex
-  ); // default değer verdiğim için justify content değerini göndermiyorum
+  gap: 1rem;
+  @include flexMix(flex); // default value is assigned, no justify content
   &__image {
     // height: 500px;
     // width: 45%;
@@ -14,7 +12,7 @@
     // background-size: contain;
     // background-repeat: no-repeat;
     // background-image: url(../assets/image1.png);
-    @include bgImage(500px, 45%, "../assets/image1.png");
+    @include bgImage(500px, 45%, "../assets/travel-concept-with-baggage.jpg");
   }
   &__form {
     width: 45%;

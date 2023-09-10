@@ -1,15 +1,15 @@
 // about
 .about {
   @include flexMix(flex);
-  margin: 3rem auto;
+  margin: 0.5rem auto;
   width: 90%;
   gap: 3rem;
   &__image {
     @include bgImage(
       500px,
       45%,
-      "../assets/image2.png"
-    ); // image yolu verirken css dosyamızın konumuna göre tanımlıyoruz.
+      "../assets/beautiful-collage-travel-concept.jpg"
+    ); // image path is defined according to css file.
   }
   &__text {
     width: 45%;

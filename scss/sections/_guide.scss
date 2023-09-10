@@ -1,11 +1,15 @@
 // guide
 .guide {
-  margin: 3rem auto;
+  margin: 0.5rem auto;
   @include flexMix(flex);
   width: 90%;
   gap: 2rem;
   &__image {
-    @include bgImage(500px, 45%, "../assets/image3.png");
+    @include bgImage(
+      500px,
+      45%,
+      "../assets/full-shot-travel-concept-with-landmarks.jpg"
+    );
   }
   &__text {
     width: 45%;
