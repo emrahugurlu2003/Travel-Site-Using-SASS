@@ -3,7 +3,7 @@
   <h1 align="center">Travel Site</h1>
 
   <p align="center">
-    <a href="https://scss-projects.vercel.app/">View Demo</a>
+    <a href="https://travel-site-using-sass.vercel.app/">View Demo</a>
   </p>
 </p>
 
