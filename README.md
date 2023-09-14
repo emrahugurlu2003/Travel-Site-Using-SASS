@@ -49,7 +49,7 @@ Travel Site Project
               |----main.scss
 ```
 
-![Screen Shot](Sass.gif)
+![Screen Shot](Demo-Travel-Site-Using-SASS.gif)
 
 This project is developed using Scss (Sassy Cascading Style Sheets), a CSS project. Scss is a style sheet language that adds additional features and enhanced syntax to CSS, providing more functionality and improved ease of writing.
 
